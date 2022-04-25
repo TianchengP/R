@@ -1,6 +1,7 @@
 true_and_missing <- c(TRUE,NA)    #给true_and_missing赋值TRUE、NA
 false_and_missing <- c(FALSE,NA)  #给false_and_missing赋值FALSE、NA
 mixed <- c(TRUE,FALSE,NA)         #给mixed赋值为TRUE、FALSE、NA
+#将any和all函数用于以上每个向量
 any(true_and_missing)
 #[1] TRUE
 any(false_and_missing)
