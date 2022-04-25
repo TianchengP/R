@@ -1,0 +1,23 @@
+#练习1
+#问题1
+a <- 1:1000         #给a赋1~1000的向量
+b <- atan(1/a)      #求a倒数的反正切返回值
+
+#问题2
+x <- 1:1000         #给x分配从1到1000的整型向量
+x <- as.numeric(x)  #将整型向量转化成数字向量
+y <- atan(1/x)      #求x倒数的反正切值并分配给y
+z <- 1/tan(y)       #计算y切线的倒数并赋值给z
+
+
+#练习2
+#问题1
+result <- x == z                #对比x与z的差别,分配到result中
+result                          #输出result的值
+
+identical(x,z)                  #用identical函数比较x和z
+#[1] FALSE                      x和z不完全一样
+all.equal(x,z)                  #用all.equal函数在默认容差下比较x和z
+#[1] TRUE                       在默认容忍度的情况下x和z一样
+all.equal(x,z,tolerance = 0)    #用all.equal函数在容差为0时比较x和z
+#[1] "Mean relative difference: 1.270335e-16"x和z的平均相对差为1.270335e-16
