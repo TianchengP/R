@@ -24,3 +24,7 @@ table(result)
 
 
 #练习3-3
+apple<-1
+banana<-2
+strawberry<-3
+ls(pattern = "a")
