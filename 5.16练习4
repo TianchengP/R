@@ -1,5 +1,16 @@
 #练习4-1
 result <- NULL
 for (i in 1:50) {
-  result <- c(a,i*(i+1)/2)
+  result <- c(result,i*(i+1)/2)
 }
+names(result) <- letters[1:15]
+result[1]
+result[15]
+result[45]
+result[120]
+
+
+
+#练习4-2
+a <- c(10:0,1:10)
+diag(a)
