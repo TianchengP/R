@@ -1,1 +1,26 @@
+#练习3-1
+class(Inf)
+class(NA)
+class(NaN)
+class("")
+mode(Inf)
+mode(NA)
+mode(NaN)
+mode("")
+str(Inf)
+str(NA)
+str(NaN)
+str("")
+storage.mode(Inf)
+storage.mode(NA)
+storage.mode(NaN)
+storage.mode("")
 
+
+#练习3-2
+name <- c("dog","cat","dolphin","hamster","goldfish")
+result <- sample(name,100,replace = TRUE)
+table(result)
+
+
+#练习3-3
