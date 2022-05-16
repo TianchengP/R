@@ -1,0 +1,5 @@
+#练习4-1
+result <- NULL
+for (i in 1:50) {
+  result <- c(a,i*(i+1)/2)
+}
