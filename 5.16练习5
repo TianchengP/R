@@ -1,0 +1,27 @@
+#练习5-1
+list0 <- list(
+  list1 <- c(1,4,9),
+  list2 <- c(16),
+  list3 <- c(25),
+  list4 <- c(36),
+  list5 <- c(49),
+  list6 <- c(64),
+  list7 <- c(81)
+)
+
+
+
+#练习5-2
+data0 <- data.frame(iris)
+colMeans(data0[1])
+colMeans(data0[2])
+colMeans(data0[3])
+colMeans(data0[4])
+
+
+
+#练习5-3
+a <- data.frame(id = 1,beaver1)
+b <- data.frame(id = 2,beaver2)
+c <- rbind(a,b)
+subset(c,activ == 1)
